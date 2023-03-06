@@ -1,0 +1,14 @@
+<header id="header">
+    <div id="title">
+        <h1><%= config.title %></h1>
+    </div>
+    <div id="nav">
+        <ul>
+            <% for (var i in theme.nav) { %>
+            <li>
+                <a href="<%- url_for(theme.nav[i]) %>"><%= __('nav.'+i).replace("nav.", "") %></a>
+            </li>
+            <% } %>
+        </ul>
+      </div>
+</header>

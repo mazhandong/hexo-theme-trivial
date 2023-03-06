@@ -1,0 +1,21 @@
+<footer id="footer">
+    <span>
+        <%= __('footer.copyright') %> &copy;
+        <% var endYear = (theme.copyright && theme.copyright.end_year) ? theme.copyright.end_year : new Date().getFullYear() %>
+        <% var startYear = (theme.copyright && theme.copyright.start_year) ? theme.copyright.start_year : new Date().getFullYear() %>
+        <%= startYear >= endYear ? endYear : startYear + "-" + endYear %>
+        <%= config.author || config.title %>
+    </span>
+    <span>
+        <a href="https://beian.miit.gov.cn/" target="_blank">黑ICP备2023000024号-1</a>
+    </span>
+    <span>
+        <a href="/rss.xml">RSS订阅</a>
+    </span>
+    <span>
+        Theme by <a href="https://github.com/mazhandong/hexo-theme-trivial" target="_blank">Trivial</a>
+    </span>
+    <span>
+        Powered by <a href="https://hexo.io/" target="_blank">Hexo</a>
+    </span>
+</footer>

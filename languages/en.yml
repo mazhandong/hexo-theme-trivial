@@ -1,0 +1,12 @@
+nav:
+  home: Home
+  articles: Writing
+  category: Category
+  tag: Tag
+  search: Search
+  friends: Friends
+  about: About
+  projects: Projects
+
+footer:
+  copyright: Copyright

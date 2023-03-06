@@ -1,0 +1,12 @@
+nav:
+  home: 首页
+  articles: 归档
+  category: 分类
+  tag: 标签
+  search: 搜索
+  friends: 朋友们
+  about: 关于
+  projects: 项目
+
+footer:
+  copyright: Copyright

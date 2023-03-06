@@ -1,0 +1,15 @@
+nav:
+  home: /
+  articles: /archives/
+  category: /categories/
+  search: /search/
+  friends: /friends/
+  about: /about/
+
+copyright:
+  start_year: 
+  end_year: 2022
+
+logo:
+url: /images/logo.png
+grayout: false

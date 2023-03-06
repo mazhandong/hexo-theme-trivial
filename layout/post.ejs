@@ -1,0 +1,16 @@
+<article class="post">
+    <div class="post-details">
+        <% if (is_post()) { %>
+        <div class="post-title">
+            <h1><%= page.title %></h1>
+        </div>
+        <div class="post-meta">
+            <i class="fa-solid fa-clock"></i>&nbsp;<span class="post-date"><%= date(page.date, 'YYYY/MM/DD') %></span>
+        </div>
+        <% } %>
+        <div class="post-content">
+            <%- page.content %>
+        </div>
+    </div>
+</article>
+<%- partial('_partial/comments') %>
